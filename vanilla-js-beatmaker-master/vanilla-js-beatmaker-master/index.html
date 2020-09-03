@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Create Music Beats</title>
+  </head>
+  <body>
+    <div class="app">
+        <header>
+          <img src="./images/music1.jpg" alt="" class="distor">
+        <h1>Create Music</h1>
+        <p>Make music with beats</p>
+      </header>
+      <div class="visual"></div><!--FOR POPPING BALLS-->
+      <div class="pads">
+        <div class="pad1"><!--WE are using pad1 class since we can't animate audio app-->
+          <audio class="sound">
+            <source src="./sounds/bubbles.mp3">
+          </audio>
+        </div>
+        <div class="pad2">
+          <audio class="sound">
+            <source src="./sounds/clay.mp3" />
+          </audio>
+        </div>
+        <div class="pad3">
+          <audio class="sound">
+            <source src="./sounds/confetti.mp3" />
+          </audio>
+        </div>
+        <div class="pad4">
+          <audio class="sound">
+            <source src="./sounds/glimmer.mp3" />
+          </audio>
+        </div>
+        <div class="pad5">
+          <audio class="sound">
+            <source src="./sounds/moon.mp3" />
+          </audio>
+        </div>
+        <div class="pad6">
+          <audio class="sound">
+            <source src="./sounds/ufo.mp3" />
+          </audio>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js"
+      integrity="sha512-aqhdrigR8ePLi7IhiGrZz4APv1VktO5eCavRmavrNSk1Ut/s/WVlDwH94SeCqAiM0lm/s8mjtjaDhfevv2Zauw=="
+      crossorigin="anonymous"></script>
+    <script src="./hover.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
